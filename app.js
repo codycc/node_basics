@@ -1,5 +1,4 @@
-var a = 1; 
-var b = 2;
-var c = a + b ; 
+var greet = require('./greet');
 
-console.log(c);
+greet.english();
+greet.spanish();
